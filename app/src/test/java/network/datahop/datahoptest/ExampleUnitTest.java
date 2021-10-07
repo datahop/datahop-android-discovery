@@ -1,4 +1,4 @@
-package network.datahop.datahopdemo;
+package network.datahop.datahoptest;
 
 import org.junit.Test;
 

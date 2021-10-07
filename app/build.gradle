@@ -10,7 +10,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "network.datahop.datahopdemo"
+        applicationId "network.datahop.datahoptest"
         minSdkVersion 24
         targetSdkVersion 28
         versionCode 1
@@ -61,9 +61,10 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation "com.google.protobuf:protobuf-java:3.15.8"
+    implementation 'network.datahop.libs:datahop:v0.0.11'
+    implementation(name: 'blediscovery-release', ext: 'aar')
+    implementation(name: 'wifidirect-debug', ext: 'aar')
 
-//    implementation 'network.datahop.libs:datahop:v0.0.11'
-    implementation(name: 'datahop', ext: 'aar')
-    implementation 'network.datahop.libs:blediscovery:0.0.5'
-    implementation 'network.datahop.libs:wifidirect:0.0.2'
+    //implementation 'network.datahop.libs:blediscovery:0.0.5'
+    //implementation 'network.datahop.libs:wifidirect:0.0.2'
 }

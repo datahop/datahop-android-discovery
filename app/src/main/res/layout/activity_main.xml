@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="network.datahop.datahopdemo.MainActivity">
+    tools:context="network.datahop.datahoptest.MainActivity">
 
     <TextView
         android:id="@+id/textview_id"
@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textview_peers"
+        android:id="@+id/textview_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/node_peers"

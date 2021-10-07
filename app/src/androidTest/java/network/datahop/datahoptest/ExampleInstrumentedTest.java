@@ -1,4 +1,4 @@
-package network.datahop.datahopdemo;
+package network.datahop.datahoptest;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("network.datahop.datahopdemo", appContext.getPackageName());
+        assertEquals("network.datahop.datahoptest", appContext.getPackageName());
     }
 }
