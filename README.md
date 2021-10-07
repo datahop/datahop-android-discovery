@@ -1,8 +1,7 @@
-# DataHop Demo using Ipfs-lite and Device-to-Device (D2D) communications
+# DataHop Testing App for Device-to-Device (D2D) communications libraries
 
-This is the demo that showcase the use of the [IPFS-lite project](https://github.com/datahop/ipfs-lite) that runs on Android devices, and 
-the use of wireless [service discovery based on Bluetooth Low Energy (BLE)](https://github.com/datahop/p2p-discovery-ble) and [WiFi-Direct](https://github.com/datahop/p2p-connection-wifidirect) for insfrastructureless communications based on Device-to-Device (D2D).
-.
+This is a testing Android app that uses  wireless [service discovery based on Bluetooth Low Energy (BLE)](https://github.com/datahop/p2p-discovery-ble) and [WiFi-Direct](https://github.com/datahop/p2p-connection-wifidirect) for insfrastructureless communications based on Device-to-Device (D2D).
+
 # License
 
 Copyright 2021 Datahop
